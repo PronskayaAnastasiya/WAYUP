@@ -1,0 +1,56 @@
+h1 {
+    width: 100%;
+    text-align: center;
+}
+.tabs-block-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+#tabs2,
+#tabs {
+    display: flex;
+}
+#tabs2{
+    justify-content: center;
+}
+.tab-btn2,
+.tab-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.tab-btn2.active,
+.tab-btn.active {
+    background-color: blue;
+    color: #ffffff;
+}
+#contents2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+        width: 100%;
+        height: 100px;
+        border: 1px solid black;
+}
+#contents {
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+.content2,
+.content {
+    display: none;
+}
+.content2.active,
+.content.active {
+    display: block;
+}
